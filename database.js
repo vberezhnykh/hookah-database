@@ -1,4 +1,31 @@
 const db = {
+  brands: [
+    {
+      name: "Brusko",
+      image: "./images/Brusko/brusko-logo.webp",
+      id: 1,
+    },
+    {
+      name: "Burn",
+      image: "./images/Burn/burn-logo.webp",
+      id: 2,
+    },
+    {
+      name: "Chabacco",
+      image: "./images/Chabacco/chabacco-logo.webp",
+      id: 3,
+    },
+    {
+      name: "DarkSide",
+      image: "./images/DarkSide/darkside-logo.webp",
+      id: 4,
+    },
+    {
+      name: "Must Have",
+      image: "./images/Chabacco/musthave-logo.webp",
+      id: 5,
+    },
+  ],
   flavors: [
     {
       brand: "Brusko",
